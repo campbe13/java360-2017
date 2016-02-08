@@ -1,0 +1,6 @@
+studentcode/
+*.class
+fromlabs/
+assessments/
+*.log
+*~
