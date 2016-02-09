@@ -1,11 +1,17 @@
 package fromslides.S07;
 import java.util.Scanner;
+/**
+ * This class illustrates exercises from the slide deck for the course
+ * 360-420-DW Intro to Java
+ * @author PMCampbell
+ * @version today
+ **/
 public class Credit
 {
    public static void main(String[] args)
    {
-   final float SALARY = 30000F;
-   final int YEARS = 2;
+   final float MINIMUM_SALARY = 30000F;
+   final int MINIMUM_YEARS = 2;
    
    Scanner keyboard = new Scanner(System.in);
    float salary;
@@ -16,8 +22,8 @@ public class Credit
    System.out.print("Enter years at the job: ");
    years = keyboard.nextInt();
    
-   if ( salary >= SALARY ) {
-      if ( years >= YEARS ) {
+   if ( salary >= MINIMUM_SALARY ) {
+      if ( years >= MINIMUM_YEARS ) {
          System.out.println("Let's talk!");
          }
       else {
@@ -25,6 +31,6 @@ public class Credit
          }
       }
    else 
-      System.out.printf("You need a salary of > $%.2f", SALARY);
+      System.out.printf("You need a salary of > $%.2f", MINIMUM_SALARY);
    }
 }

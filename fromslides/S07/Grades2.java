@@ -1,5 +1,11 @@
 package fromslides.S07;
 import java.util.Scanner;
+/**
+ * This class illustrates exercises from the slide deck for the course
+ * 360-420-DW Intro to Java
+ * @author PMCampbell
+ * @version today
+ **/
 public class Grades2
 {
    public static void main(String[] args)

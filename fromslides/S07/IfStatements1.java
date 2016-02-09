@@ -1,11 +1,17 @@
 package fromslides.S07;
 import java.util.Scanner;
+/**
+ * This class illustrates exercises from the slide deck for the course
+ * 360-420-DW Intro to Java
+ * @author PMCampbell
+ * @version today
+ **/
 public class IfStatements1 
 {
    public static void main(String[] args)
    {
    Scanner keyboard = new Scanner(System.in);
-   int num1, num2, quotient;
+   int num1, num2, quotient, remainder;
 
    System.out.print("Enter an integer: ");
    num1 = keyboard.nextInt();
@@ -33,7 +39,9 @@ public class IfStatements1
         System.out.println("Division by 0 is a no no!");
     else {
         quotient = num1 / num2;
-        System.out.printf("%d / %d = %d\n ", num1, num2, quotient);
+        System.out.printf("%05d / %05d = %05d\n", num1, num2, quotient);
+        remainder = num1 % num2;
+        System.out.printf("%05d %% %05d = %05d\n ", num1, num2, remainder);
     }
     
    }
