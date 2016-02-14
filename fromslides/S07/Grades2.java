@@ -31,7 +31,7 @@ public class Grades2
    // else ifs
    if ( grade >= AGRADE )
       System.out.println("You got an A! :o");
-   else if ( grade > PASSGRADE )
+   else if ( grade >= PASSGRADE )
                System.out.println("You passed! :)");
         else
                System.out.println("You failed :(");

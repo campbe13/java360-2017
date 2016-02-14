@@ -1,6 +1,17 @@
-package fromslides.S10;
+//package fromslides.S08;
 import java.util.Scanner;
-public class CalcEulersNum
+/**
+ * 
+ * This class illustrates exercises from the slide deck for the course
+ * 360-420-DW Intro to Java
+ * @author PMCampbell
+ * @version today
+ * This is the same code from S08 but instead of all in the main() method we have methods
+ * for factorial() and for eNumber()
+ * 
+ **/
+ 
+public class CalcEulersNumMethods
 {
     public static void main(String[] args)
     {
@@ -29,6 +40,7 @@ public class CalcEulersNum
         }
     return product;
     } // factorial()
+    
     // Euler method:
     public static double eNumber() 
     { 
@@ -45,5 +57,5 @@ public class CalcEulersNum
         } 
      
     return currentEstimate; 
-    } //eNumber
+    } // eNumber()
 } // WhileFloat

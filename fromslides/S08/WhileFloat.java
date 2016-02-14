@@ -1,4 +1,4 @@
-package fromslides.S10;
+//package fromslides.S08;
 import java.util.Scanner;
 public class WhileFloat
 {
