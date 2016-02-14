@@ -1,6 +1,7 @@
 studentcode/
 *.class
 fromlabs/
+labs/
 assessments/
 *.log
 *~
