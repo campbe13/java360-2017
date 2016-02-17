@@ -8,8 +8,8 @@ if [[ $# -ne 1 ]] ; then
 fi
 git add --all .
 git status
-read -p "continue y/n" cont
+read -p "continue y/n: " cont
 if [[ $cont == "y" ]] ; then
-    git commit -m $1
+    git commit -m "$1"
     git push
 fi
