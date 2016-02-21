@@ -10,40 +10,26 @@ public class ScopeDemo
 {
     public static void main(String[] args)
     {
-    int num1, num2, small, big;
-    
+    int grade;
+
     Scanner keyboard = new Scanner(System.in);
     
     System.out.println("Brought to you by Dawson College");
     
-    // read in first integer
-    System.out.print("Enter an integer: ");
-    num1 =  keyboard.nextInt();
+    // read in first grade
+    System.out.print("Enter a grader: ");
+    grade =  keyboard.nextInt();
     
-    // read in second  integer
-    System.out.print("Enter an integer: ");
-    num2 =  keyboard.nextInt();
     
-    // find smallest of first and second integer
-    if ( num1  > num2)
-           small = num2;
-        else 
-           small = num1;
-           
-    System.out.printf("Given %d and %d \n", num1, num2);
-          
-    // display smallest of first and second integer     
-    System.out.println("Smallest is "+ small);
-    
-    // find biggest of first and second integer
-    if ( num1  > num2)
-           big = num1;
-        else 
-           big = num2;
-    // display biggest of first and second integer     
-    System.out.println("Biggest is "+ big);
-    
-    System.out.println("Brought to you by Dawson College");
-
+    if ( testscore >= 60 ) {
+        boolean passed = true;
+    } else {
+        passed = false;
+    }
+    if (passed)  {
+        System.out.println("You passed! "+grade);
+    } else {
+        System.out.println("You failed. "+ grade);
+    }
     } // main()
-} // NoMethods
+} // ScopeDemo
