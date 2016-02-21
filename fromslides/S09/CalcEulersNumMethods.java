@@ -26,6 +26,7 @@ public class CalcEulersNumMethods
     
     double euler = eNumber();
     System.out.println("Raw estimate\t\t\t" + euler);
+    
     double powr = Math.pow(10,prec);
     System.out.println("Precision " + prec + " digits estimate\t" + Math.round(euler*powr)/powr);
     
