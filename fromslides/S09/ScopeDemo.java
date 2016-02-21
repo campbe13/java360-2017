@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author PMCampbell
  * @version today
  **/
-public class NoMethods
+public class ScopeDemo
 {
     public static void main(String[] args)
     {
