@@ -20,6 +20,8 @@ public class ScopeDemo
     System.out.print("Enter a grader: ");
     grade =  keyboard.nextInt();
     
+    // this code has compile errors due to scope problems, 
+    // how would you fix it?
     
     if ( testscore >= 60 ) {
         boolean passed = true;
