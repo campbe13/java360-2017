@@ -1,4 +1,4 @@
-//package fromslides.S08;
+//package fromslides.S09;
 import java.util.Scanner;
 
 /**
@@ -30,6 +30,8 @@ public class CountDownMethods {
       } // main()
    /**
    * This method displays the parameter and decrements it by one
+   * until it reaches 0
+   * 
    * 360-420-DW Intro to Java
    * @author PMCampbell
    * @version today
