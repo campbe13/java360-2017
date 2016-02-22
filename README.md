@@ -9,4 +9,9 @@ Git https://github.com/campbe13/JavaSourceSamples360
 Cloud9 https://ide.c9.io/pcampbelldawson/samples360
 
 The fromslides/S99 directories correspond to 
-the Slide decks 00-18
+the Slide decks  For Lecture 00-18
+
+You can copy them individually or if you are game 
+git clone the whole repo (on Windows install git bash)
+open a command prompt:
+*git clone https://ide.c9.io/pcampbelldawson/samples360*
