@@ -42,7 +42,7 @@ public class MinMaxAvgArray
 		System.out.println("55 is not in the array :(");
     } 
     } //end main method
-	public static boolean checkDuplicate(int[] array, int digit)
+public static boolean checkDuplicate(int[] array, int digit)
 {
 	for (int i = 0; i < array.length; i++)
 		if (array[i] == digit)
