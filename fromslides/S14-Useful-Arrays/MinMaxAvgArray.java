@@ -1,4 +1,4 @@
-package fromslides.S14;
+//package fromslides.S14;
 
 import java.util.Scanner;
 
