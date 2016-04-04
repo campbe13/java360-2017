@@ -18,13 +18,13 @@ public class ReturnArray {
 			}
 		} //end main method
 
-			public static int[] extractDigits(int num) {
-					int[] result = new int[5];
+	public static int[] extractDigits(int num) {
+			int[] result = new int[5];
 
-					for (int i = 0; i < result.length; i++) {
-						result[i] = num / (int) Math.pow(10, i) % 10;
-					}
-					return result;
-				} // extractDigits()
+			for (int i = 0; i < result.length; i++) {
+				result[i] = num / (int) Math.pow(10, i) % 10;
+			}
+			return result;
+		} // extractDigits()
 
 } //end class
