@@ -1,4 +1,4 @@
-package fromslides.S14;
+//package fromslides.S14;
 
 import java.util.Scanner;
 
@@ -52,12 +52,12 @@ public class CompareArray {
 			
 		} //end main method
 		
-		/*
+		/**
 		* change the array @ i to value
 		* @param arry   integer array
 		* @param i       integer index 
 		* @param value   integer new value for array
-		*/ 
+		**/ 
 		public static void changeArray(int arry[], int i, int value)   {
 			// I can change the contents of the array
 			// because I have the address (reference)
@@ -65,12 +65,12 @@ public class CompareArray {
 			if (i > 0 && i < arry.length) 
 			    arry[i]  = value;
 		}    //changeArray()
-		/*
+		/**
 		* change the array @ i to value
 		* @param arry   integer array
 		* @param i       integer index 
 		* @param value   integer new value for array
-		*/ 
+		**/ 
 		public static void showArray(String name, int arry[])   {
 			System.out.println("\nArray: "+name);
 			for (int i=0; i < arry.length; i++)
