@@ -66,10 +66,9 @@ public class CompareArray {
 			    arry[i]  = value;
 		}    //changeArray()
 		/**
-		* change the array @ i to value
-		* @param arry   integer array
-		* @param i       integer index 
-		* @param value   integer new value for array
+		* display the array with a message 
+		* @param name   message String  integer array
+		* @param arry    integer array
 		**/ 
 		public static void showArray(String name, int arry[])   {
 			System.out.println("\nArray: "+name);

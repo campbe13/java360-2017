@@ -1,4 +1,4 @@
-package fromslides.S15;
+//package fromslides.S15;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @version    slide deck 15
  */
 
-public class Arrays2d {
+public class ArraySum2d {
     public static void main(String[] args) {
             int[][] numbers = {
                 { 1, 2, 3, 4 }, 
