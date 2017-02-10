@@ -28,8 +28,10 @@ if cond1 is false
 ```
 	
 ##Logical NOT ( ! )  aka bang
+```
 boolean cond1 = true;
 boolean cond2 = false;
+```
 
 !cond1  expression value is false  
 !cond2  expression value is true
