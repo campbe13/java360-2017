@@ -16,9 +16,11 @@ cond1 || cond2    both must be false for expression value false
 
 if cond1 is true expression value is true
 
+```
 if cond1 is false 
 	if cond2 is true   expression value is true
 	if cond2 is false expression value is false
+```
 	
 ##Logical NOT ( ! )  aka bang
 boolean cond1 = true;
