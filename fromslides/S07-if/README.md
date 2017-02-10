@@ -5,16 +5,21 @@
 
 cond1 && cond2    both must be true for expression value true
 
+```
 if cond1 is true we check cond2
 	if cond2 is true 	expression value true
 	if cond2 is false 	expression value false
-	
+```
+```
 if cond1 is false   expression value is false  
+```
 
 ##Logical OR  ( || )
 cond1 || cond2    both must be false for expression value false 
 
+```
 if cond1 is true expression value is true
+```
 
 ```
 if cond1 is false 
