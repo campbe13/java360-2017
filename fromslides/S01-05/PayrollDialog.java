@@ -4,7 +4,7 @@ import java.util.Scanner;  // Needed for the Scanner class
    This program demonstrates the Scanner class.
 */
 
-public class ass1
+public class PayrollDialog
 {
    public static void main(String[] args)
    {
