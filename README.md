@@ -1,11 +1,10 @@
 This workspace is for all code used for
-teaching Introductory Java to Science students
-
-2015 & 2016  360-420-DW 
+teaching 360-420-DW  Introductory Java to Science students  in 2015 & 2016  & 2017
 http://www.dawsoncollege.qc.ca
 
-Git short url http://bit.ly/java360
-Git full url  https://github.com/campbe13/JavaSourceSamples360
+For the current course repo see: 
+* Git short url http://bit.ly/java360
+* Git full url  https://github.com/campbe13/JavaSourceSamples360
 
 (there is a button to download everything as a zip file)
 
